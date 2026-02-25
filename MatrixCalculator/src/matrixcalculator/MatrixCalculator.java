@@ -1,0 +1,24 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package matrixcalculator;
+
+import View.MenuView;
+
+/**
+ *
+ * @author huydo
+ */
+public class MatrixCalculator {
+
+    /**
+     * @param args the command line arguments
+     */
+
+    public static void main(String[] args) {
+        MenuView menu = new MenuView();
+        menu.display();
+    }
+
+}
